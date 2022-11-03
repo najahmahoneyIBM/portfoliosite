@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar{
+  display: relative;
+  list-style: none;
+  justify-content: space-around;
+  float: right;
+  
+}
+
+.navbar a {
+  color: #902323;
+  text-decoration: none;
+  font-family: "Montserrat";
+  opacity: 0.4;
+  font-weight: semi-bold;
+}
+
+.navbar a:hover {
+  opacity: .75;
+}
+
+.profilepic{
+
+}
+
+.navbar-container{
+  display: relative;
+  list-style: none;
+  justify-content: space-around;
+  float: right;
+  
+}
+
+.navbar a {
+  color: #902323;
+  text-decoration: none;
+  font-family: "Montserrat";
+  opacity: 0.4;
+  font-weight: semi-bold;
+}
+
+.navbar a:hover {
+  opacity: .75;
+}
+
+.navbar {
+  background-color: #902323;
+  transition: background-color .5s ease-in-out;
+}
+
+.homepage {
+  background-color: #902323;
+  height: 100vh;
+  width: 100vw;
+
+  
+}
